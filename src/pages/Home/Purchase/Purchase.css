@@ -1,0 +1,24 @@
+.crd{
+    width: 400px;
+}
+@media only screen and (max-width:688px) {
+    .crd{
+        width:260px;
+    }
+   
+
+}
+
+
+.add-service form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add-service form input, textarea {
+    width: 60%;
+    margin-bottom: 10px;
+}
