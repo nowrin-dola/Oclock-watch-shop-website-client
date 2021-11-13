@@ -3,7 +3,7 @@
 ### this is a Watch website client side.tis the interface of the watch shob website
 
 
-This project was bootstrapped with [More Memories Travel](https://more-memories-travel-booking.firebaseapp.com/).
+This project was bootstrapped with [OClock Watch Shop](https://oclock-watch-shop.firebaseapp.com/).
 
 ## Available Scripts
 
