@@ -22,27 +22,28 @@ const Dashboard = () => {
     return (
         
         <div className="dashboard-container container">
+          
           <div className="row">
             <div className="col-md-3 col-lg-3 col-12">
               <div className="dashboard">
                 <h5>Dashboard</h5>
                 {!admin && <>
 
-                  <Nav.Link as={Link} to={`${url}`}><span className='text-white'>Home</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/pay`}><span className='text-white'>Pay</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/myOrders`}><span className='text-white'>My Orders</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/review`}><span className='text-white'>Review</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}`}><i class="fas fa-home"></i>    <span className='text-white'>Home</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/pay`}><i class="fas fa-file-invoice-dollar"></i>   <span className='text-white'>Pay</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/myOrders`}><i class="fas fa-cart-arrow-down"></i>   <span className='text-white'>My Orders</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/review`}><i class="fas fa-star-half-alt"></i>   <span className='text-white'>Review</span></Nav.Link>
                   
                 </>}
                 <div className="admin-dashboard">
                 
                 {admin && <>
 
-                  <Nav.Link as={Link} to={`${url}`}><span className='text-white'>Home</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/makeAdmin`}><span className='text-white'>Make Admin</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/manageAllOrders`}><span className='text-white'>Manage All Orders</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/manageProducts`}><span className='text-white'>Manage Products</span></Nav.Link>
-                  <Nav.Link as={Link} to={`${url}/addProduct`}><span className='text-white'>Add Product</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}`}><i class="fas fa-home"></i>   <span className='text-white'>Home</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/makeAdmin`}><i class="fas fa-user-shield"></i>   <span className='text-white'>Make Admin</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/manageAllOrders`}><i class="fas fa-tasks"></i>   <span className='text-white'>Manage All Orders</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/manageProducts`}><i class="fas fa-user-cog"></i>   <span className='text-white'>Manage Products</span></Nav.Link>
+                  <Nav.Link as={Link} to={`${url}/addProduct`}><i class="fas fa-cart-plus"></i>   <span className='text-white'>Add Product</span></Nav.Link>
                   
                 </>}
 
