@@ -37,21 +37,21 @@ const AddProducts = () => {
           <input
             {...register("name")}
             placeholder="Name"
-            className="p-2 m-2 w-100"
+            className="p-2 m-2 w-75"
           />
           <br />
           
-          <textarea className="p-4 m-2 w-100" {...register("description")} 
+          <textarea className="p-4 m-2 w-75" {...register("description")} 
           placeholder="description"
            />
           <br />
-          <input type="number" className="p-2 m-2 w-100" {...register("price")} placeholder=" price" />
+          <input type="number" className="p-2 m-2 w-75" {...register("price")} placeholder=" price" />
           <br/>
 
           <input
             {...register("picture", { required: true })}
             placeholder="Image Link"
-            className="p-2 m-2 w-100"
+            className="p-2 m-2 w-75"
             
           />
           <br />
