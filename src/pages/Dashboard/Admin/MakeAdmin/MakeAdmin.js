@@ -44,7 +44,7 @@ const MakeAdmin = () => {
             type='email' 
             onBlur={handleOnBlur}
             variant="standard" />
-            <Button type="submit"  variant="success">Make Admin</Button>
+            <Button type="submit" className="m-2"  variant="success">Make Admin</Button>
 
             </form>
         

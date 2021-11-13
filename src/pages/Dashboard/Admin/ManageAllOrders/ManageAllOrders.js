@@ -32,7 +32,7 @@ const ManageAllOrders = () => {
         <div>
             <h3 className="text-center text-primary fw-bold m-3">All order  {allOrders.length}</h3>
             <div className="table-responsive-sm">
-            <Table striped bordered hover className="">
+            <Table striped bordered hover>
   <thead>
     <tr>
       <th>Watch Name</th>

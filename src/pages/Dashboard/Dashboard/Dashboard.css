@@ -1,11 +1,19 @@
 .dashboard {
+
     background-color: rgb(1, 37, 15);
     height: 100vh;
     color: white;
     cursor: pointer;
     padding-left: 20px;
+    
+
   }
   
   .dashboard-menu:hover {
     color: cyan;
+  }
+  .container{
+    margin:0;
+    padding: 0;
+
   }

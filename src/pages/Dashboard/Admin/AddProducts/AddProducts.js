@@ -28,9 +28,9 @@ const AddProducts = () => {
         console.log(data);
       };
     return (
-        <div>
+        <div className="text-center">
         <h1 className="mt-5 text-center text-danger">Add Watches</h1>
-        <div className="login-box w-75 m-auto mt-5">
+        <div className="login-box w-75 mx-auto mt-5">
     <div className="event-box border border d-flex justify-content-center align-items-center m-3">
       <div className="login-form ">
         <form onSubmit={handleSubmit(onSubmit)}>

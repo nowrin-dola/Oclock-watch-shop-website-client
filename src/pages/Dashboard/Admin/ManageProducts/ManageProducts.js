@@ -48,7 +48,7 @@ const ManageProducts = () => {
 
     return (
     <div>
-         <h3 className="text-center text-primary fw-bold m-3">All Products  {allWatches.length}</h3>
+         <h3 className="text-center text-primary fw-bold">All Products  {allWatches.length}</h3>
         <div className="table-responsive-sm">
             <Table striped bordered hover className="">
                 <thead>

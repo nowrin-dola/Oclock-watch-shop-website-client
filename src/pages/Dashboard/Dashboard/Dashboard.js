@@ -20,10 +20,10 @@ const Dashboard = () => {
     let { path, url } = useRouteMatch();
     const {admin, logOut} =  useAuth();
     return (
-        <div>
-        <div className="dashboard-container ">
+        
+        <div className="dashboard-container container">
           <div className="row">
-            <div className="col-md-3 col-12">
+            <div className="col-md-3 col-lg-3 col-12">
               <div className="dashboard">
                 <h5>Dashboard</h5>
                 {!admin && <>
@@ -56,7 +56,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-9 col-12">
+            <div className="col-md-9 col-lg-9 col-12">
               <Switch>
                 <Route exact path={path}>
                   <DashboardHome></DashboardHome>
@@ -93,7 +93,7 @@ const Dashboard = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     );
 };
 
